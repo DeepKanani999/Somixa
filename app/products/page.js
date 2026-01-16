@@ -629,9 +629,9 @@ const Products = () => {
                                 }}
                               >
                                 <div
-                                  className="flex items-center gap-2 px-3 py-1 mt-1 mb-4 border border-gray-300 rounded-lg transition"
+                                  className="flex items-center gap-2 px-3 py-1 mt-1 mb-3 rounded-lg transition"
                                   style={{
-                                    backgroundColor: "#39B54A",
+                                    border: "1px solid #39B54A",
                                     display: "flex",
                                     flexDirection: "row",
                                     alignItems: "center",
@@ -641,8 +641,8 @@ const Products = () => {
                                   }}
                                 >
                                   <span
-                                    className="underline text-white"
-                                    style={{ fontSize: "20px" }}
+                                    className="underline"
+                                    style={{ fontSize: "17px", color:"#39B54A" }}
                                   >
                                     View Details
                                   </span>

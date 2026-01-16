@@ -1366,7 +1366,7 @@ const HomeScreen = () => {
                             style={{ color: "#39B54A" }}
                           /> */}
                           <img
-                            src="/assets/images/about-us/spice-that-refreshes.svg"
+                            src="/assets/images/home-about-us/spice-that-refreshes.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
                             style={{ width: "20px", height: "20px" }}
@@ -1385,7 +1385,7 @@ const HomeScreen = () => {
                             style={{ color: "#39B54A" }}
                           /> */}
                           <img
-                            src="/assets/images/about-us/Authentic-taste.svg"
+                            src="/assets/images/home-about-us/Authentic-taste.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
                             style={{ width: "20px", height: "20px" }}
@@ -1404,7 +1404,7 @@ const HomeScreen = () => {
                             style={{ color: "#39B54A" }}
                           /> */}
                           <img
-                            src="/assets/images/about-us/Tradition-blended.svg"
+                            src="/assets/images/home-about-us/Tradition-blended.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
                             style={{ width: "20px", height: "20px" }}
@@ -1423,7 +1423,7 @@ const HomeScreen = () => {
                             style={{ color: "#39B54A" }}
                           /> */}
                           <img
-                            src="/assets/images/about-us/Crafting-perfect.svg"
+                            src="/assets/images/home-about-us/Crafting-perfect.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
                             style={{ width: "20px", height: "20px" }}
@@ -1442,7 +1442,7 @@ const HomeScreen = () => {
                             style={{ color: "#39B54A" }}
                           /> */}
                           <img
-                            src="/assets/images/about-us/flavorful-moment.svg"
+                            src="/assets/images/home-about-us/flavorful-moment.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
                             style={{ width: "20px", height: "20px" }}
@@ -1461,7 +1461,7 @@ const HomeScreen = () => {
                             style={{ color: "#39B54A" }}
                           /> */}
                           <img
-                            src="/assets/images/about-us/bold-masala.svg"
+                            src="/assets/images/home-about-us/bold-masala.svg"
                             className="me-2 mx-2"
                             alt="WhatsApp"
                             style={{ width: "20px", height: "20px" }}
@@ -1575,8 +1575,8 @@ const HomeScreen = () => {
                                   }}
                                   className="flex items-center gap-2 px-3 py-1 mt-1 mb-3 rounded-lg transition"
                                   style={{
-                                    backgroundColor: "#FFF",
-                                    border: "1px solid #4EB755",
+                                    backgroundColor: "#4EB755",
+                                    // border: "1px solid #4EB755",
                                     borderColor: "#4EB755",
                                     display: "flex",
                                     flexDirection: "row",
@@ -1587,7 +1587,7 @@ const HomeScreen = () => {
                                   }}
                                 >
                                   <img
-                                    src="/assets/images/whatsapp-image-green.png"
+                                    src="/assets/images/WhatsApp_Image.png"
                                     alt="WhatsApp Icon"
                                     style={{
                                       height: "15px",
@@ -1597,7 +1597,7 @@ const HomeScreen = () => {
                                   />
                                   <span
                                     className="underline"
-                                    style={{ color: "#4EB755" }}
+                                    style={{ color: "#FFFFFF" }}
                                   >
                                     Get Price
                                   </span>
