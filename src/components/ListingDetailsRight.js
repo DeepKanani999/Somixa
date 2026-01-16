@@ -319,7 +319,7 @@ const ListingDetailsRight = () => {
                 >
                   <div className="flex items-center bg-transparent rounded-lg hover:bg-gray-100 transition">
                     <img
-                      src="/assets/images/icons/whatsapp_black.png"
+                      src="/assets/images/black-icons/whatsapp.svg"
                       className="me-2 mx-2"
                       alt="WhatsApp"
                       style={{ width: "17px", height: "17px" }}
