@@ -568,32 +568,26 @@ const Products = () => {
                             alt="TV Product Image"
                           />
                         </Link>
-                        <span
-                          className="featured-btn"
-                          style={{ borderRadius: "5px" }}
-                        >
-                          Featured
-                        </span>
                       </div>
                       <div className="listing-content">
-                        <h3 className="title">
-                          <Link href={`/product-details/${val.slug}`}>
-                            {val.name}
-                          </Link>{" "}
-                        </h3>
-                        <p
-                          style={{
-                            display: "-webkit-box",
-                            WebkitBoxOrient: "vertical",
-                            WebkitLineClamp: 3,
-                            overflow: "hidden",
-                            textOverflow: "ellipsis",
-                            maxWidth: "300px",
-                            lineHeight: "1.5",
-                            marginBottom: "15px",
-                          }}
-                        >
-                          {val.detail}
+                          <h3 className="title">
+                            <Link href={`/product-details/${val.slug}`}>
+                              {val.name}
+                            </Link>{" "}
+                          </h3>
+                          <p
+                            style={{
+                              display: "-webkit-box",
+                              WebkitBoxOrient: "vertical",
+                              WebkitLineClamp: 3,
+                              overflow: "hidden",
+                              textOverflow: "ellipsis",
+                              maxWidth: "300px",
+                              lineHeight: "1.5",
+                              marginBottom: "15px",
+                            }}
+                          >
+                            {val.detail}
                         </p>{" "}
                         {/* <div className="features-list">
                           <ul>
@@ -609,50 +603,50 @@ const Products = () => {
                             </li>
                           </ul>
                         </div> */}
-                        <span className="phone-meta"></span>
-                        <div className="listing-meta">
-                          <ul
-                            style={{
-                              display: "flex",
-                              justifyContent: "center",
-                              width: "100%",
-                            }}
-                          >
-                            <li style={{ width: "100%" }}>
-                              <Link
-                                href={`/product-details/${val.slug}`}
-                                style={{
-                                  display: "flex",
-                                  justifyContent: "center",
-                                  alignItems: "center",
-                                  width: "100%",
-                                }}
-                              >
-                                <div
-                                  className="flex items-center gap-2 px-3 py-1 mt-1 mb-3 rounded-lg transition"
+                          <span className="phone-meta"></span>
+                          <div className="listing-meta">
+                            <ul
+                              style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                width: "100%",
+                              }}
+                            >
+                              <li style={{ width: "100%" }}>
+                                <Link
+                                  href={`/product-details/${val.slug}`}
                                   style={{
-                                    border: "1px solid #39B54A",
                                     display: "flex",
-                                    flexDirection: "row",
-                                    alignItems: "center",
                                     justifyContent: "center",
-                                    marginBottom: "30px",
-                                    width: "100%", // Makes the button take full width
+                                    alignItems: "center",
+                                    width: "100%",
                                   }}
                                 >
-                                  <span
-                                    className="underline"
-                                    style={{ fontSize: "17px", color:"#39B54A" }}
+                                  <div
+                                    className="flex items-center gap-2 px-3 py-1 mt-1 mb-3 rounded-lg transition"
+                                    style={{
+                                      border: "1px solid #39B54A",
+                                      display: "flex",
+                                      flexDirection: "row",
+                                      alignItems: "center",
+                                      justifyContent: "center",
+                                      marginBottom: "30px",
+                                      width: "100%", // Makes the button take full width
+                                    }}
                                   >
-                                    View Details
-                                  </span>
-                                </div>
-                              </Link>
-                            </li>
-                          </ul>
+                                    <span
+                                      className="underline"
+                                      style={{ fontSize: "17px", color:"#39B54A" }}
+                                    >
+                                      View Details
+                                    </span>
+                                  </div>
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                    </div>
                     {/* <div className="products-item products-item-one mb-25 wow fadeInUp">
                       <div className="product-img">
                         <Link href={`/product-details/${val.slug}`}>

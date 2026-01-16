@@ -850,12 +850,6 @@ const ProductDetailsClient = ({ item }) => {
                         alt="TV Product Image"
                       />
                     </Link>
-                    <span
-                      className="featured-btn"
-                      style={{ borderRadius: "5px" }}
-                    >
-                      Featured
-                    </span>
                   </div>
                   <div className="listing-content">
                     {/* <h3 className="title">

@@ -1516,15 +1516,6 @@ const HomeScreen = () => {
                           <Link href={`/product-details/${product.slug}`}>
                             <img src={product.image} alt="TV Product Image" />
                           </Link>
-                          <span
-                            className="featured-btn"
-                            style={{
-                              borderRadius: "5px",
-                              backgroundColor: "#000000",
-                            }}
-                          >
-                            Featured
-                          </span>
                         </div>
                         <div className="listing-content">
                           <h3 className="title">
